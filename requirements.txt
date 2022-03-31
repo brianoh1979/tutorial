@@ -2,8 +2,8 @@ tensorflow
 keras
 pandas
 numpy
-pillow
+#pillow
 wandb
 h5py
-opencv-python
+#opencv-python
 scikit-learn

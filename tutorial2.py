@@ -28,7 +28,6 @@ wandb.init(
     "hidden_layer_size": 128,
     "layer_1_size": 16,
     "layer_2_size": 32,
-    "learn_rate": 0.01,
     "decay": 1e-6,
     "momentum": 0.9,
     "epochs": 8 }
@@ -65,8 +64,8 @@ y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 num_classes = y_test.shape[1]
 
-sgd = SGD(lr=config.learn_rate, decay=config.decay, momentum=config.momentum,
-                            nesterov=True)
+#sgd = SGD(decay=config.decay, momentum=config.momentum,
+#                            nesterov=True)
 
 # build model
 model = Sequential()
