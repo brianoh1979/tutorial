@@ -30,11 +30,6 @@ wandb.config = {
   "batch_size": 128 
 }
 
-wandb.log({"loss": 0.314, "epochs": 14,
-           "inputs": wandb.Image(inputs),
-           "logits": wandb.Histogram(outputs),
-           "captions": wandb.Html(captions)})
-
 #config = wandb.config
 
 with tf.Session() as sess:

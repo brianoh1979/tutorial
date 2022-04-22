@@ -1,5 +1,4 @@
 [default]
 entity = brianoh1979b
 project = firstproject
-base_url = https://api.wandb.ai
 

@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.11.0-1022-aws-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-04-21T17:48:51.961578",
+    "startedAt": "2022-04-21T17:48:51.283387",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "tutorial2.py",
+    "codePath": "tutorial2.py",
+    "git": {
+        "remote": "git@github.com:brianoh1979/tutorial.git",
+        "commit": "8aca560fbd120f32e82414d8580f9c2d8aac68ad"
+    },
+    "email": null,
+    "root": "/home/ubuntu/environment/tutorial",
+    "host": "ip-172-31-25-182",
+    "username": "ubuntu",
+    "executable": "/usr/bin/python3"
+}

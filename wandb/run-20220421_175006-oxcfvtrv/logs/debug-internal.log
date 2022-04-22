@@ -1,0 +1,144 @@
+2022-04-21 17:50:07,532 INFO    MainThread:317013 [internal.py:wandb_internal():92] W&B internal server running at pid: 317013, started at: 2022-04-21 17:50:07.532363
+2022-04-21 17:50:07,536 INFO    WriterThread:317013 [datastore.py:open_for_write():77] open: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/run-oxcfvtrv.wandb
+2022-04-21 17:50:07,537 DEBUG   SenderThread:317013 [sender.py:send():235] send: header
+2022-04-21 17:50:07,537 DEBUG   SenderThread:317013 [sender.py:send():235] send: run
+2022-04-21 17:50:07,598 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: check_version
+2022-04-21 17:50:07,599 INFO    SenderThread:317013 [dir_watcher.py:__init__():169] watching files in: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files
+2022-04-21 17:50:07,599 INFO    SenderThread:317013 [sender.py:_start_run_threads():812] run started: oxcfvtrv with start time 1650563407
+2022-04-21 17:50:07,599 DEBUG   SenderThread:317013 [sender.py:send():235] send: summary
+2022-04-21 17:50:07,600 INFO    SenderThread:317013 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-21 17:50:07,600 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: check_version
+2022-04-21 17:50:07,731 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: run_start
+2022-04-21 17:50:07,732 DEBUG   HandlerThread:317013 [meta.py:__init__():37] meta init
+2022-04-21 17:50:07,733 DEBUG   HandlerThread:317013 [meta.py:__init__():51] meta init done
+2022-04-21 17:50:07,733 DEBUG   HandlerThread:317013 [meta.py:probe():211] probe
+2022-04-21 17:50:07,734 DEBUG   HandlerThread:317013 [meta.py:_setup_git():201] setup git
+2022-04-21 17:50:07,745 DEBUG   HandlerThread:317013 [meta.py:_setup_git():208] setup git done
+2022-04-21 17:50:07,746 DEBUG   HandlerThread:317013 [meta.py:_save_code():89] save code
+2022-04-21 17:50:07,750 DEBUG   HandlerThread:317013 [meta.py:_save_code():110] save code done
+2022-04-21 17:50:07,750 DEBUG   HandlerThread:317013 [meta.py:_save_patches():127] save patches
+2022-04-21 17:50:07,776 DEBUG   HandlerThread:317013 [meta.py:_save_patches():169] save patches done
+2022-04-21 17:50:07,776 DEBUG   HandlerThread:317013 [meta.py:_save_pip():55] save pip
+2022-04-21 17:50:07,776 DEBUG   HandlerThread:317013 [meta.py:_save_pip():69] save pip done
+2022-04-21 17:50:07,776 DEBUG   HandlerThread:317013 [meta.py:probe():249] probe done
+2022-04-21 17:50:07,781 DEBUG   SenderThread:317013 [sender.py:send():235] send: files
+2022-04-21 17:50:07,781 INFO    SenderThread:317013 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-21 17:50:07,781 INFO    SenderThread:317013 [sender.py:_save_file():947] saving file code/tutorial2.py with policy now
+2022-04-21 17:50:07,782 INFO    SenderThread:317013 [sender.py:_save_file():947] saving file diff.patch with policy now
+2022-04-21 17:50:07,787 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-21 17:50:07,787 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: stop_status
+2022-04-21 17:50:07,811 DEBUG   SenderThread:317013 [sender.py:send():235] send: telemetry
+2022-04-21 17:50:07,812 DEBUG   SenderThread:317013 [sender.py:send():235] send: telemetry
+2022-04-21 17:50:07,829 INFO    Thread-11 :317013 [upload_job.py:push():137] Uploaded file /tmp/tmpn0qz4349wandb/278143w4-wandb-metadata.json
+2022-04-21 17:50:07,831 INFO    Thread-13 :317013 [upload_job.py:push():137] Uploaded file /tmp/tmpn0qz4349wandb/14cfxazk-diff.patch
+2022-04-21 17:50:07,831 INFO    Thread-12 :317013 [upload_job.py:push():137] Uploaded file /tmp/tmpn0qz4349wandb/26szmamt-code/tutorial2.py
+2022-04-21 17:50:08,601 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/wandb-metadata.json
+2022-04-21 17:50:08,601 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/wandb-summary.json
+2022-04-21 17:50:08,602 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/output.log
+2022-04-21 17:50:08,602 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/code/tutorial2.py
+2022-04-21 17:50:08,602 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/requirements.txt
+2022-04-21 17:50:08,602 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/diff.patch
+2022-04-21 17:50:08,602 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_created():217] file/dir created: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/code
+2022-04-21 17:50:10,295 DEBUG   SenderThread:317013 [sender.py:send():235] send: exit
+2022-04-21 17:50:10,295 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-21 17:50:10,295 INFO    SenderThread:317013 [sender.py:send_exit():371] handling exit code: 1
+2022-04-21 17:50:10,295 INFO    SenderThread:317013 [sender.py:send_exit():373] handling runtime: 2
+2022-04-21 17:50:10,296 INFO    SenderThread:317013 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-21 17:50:10,296 INFO    SenderThread:317013 [sender.py:send_exit():379] send defer
+2022-04-21 17:50:10,296 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: poll_exit
+2022-04-21 17:50:10,297 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,297 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-21 17:50:10,297 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,297 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-21 17:50:10,297 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 1
+2022-04-21 17:50:10,298 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,298 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-21 17:50:10,348 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,348 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-21 17:50:10,348 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 2
+2022-04-21 17:50:10,348 DEBUG   SenderThread:317013 [sender.py:send():235] send: stats
+2022-04-21 17:50:10,349 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,349 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-21 17:50:10,349 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,349 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-21 17:50:10,349 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 3
+2022-04-21 17:50:10,349 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,349 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-21 17:50:10,350 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,350 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-21 17:50:10,350 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 4
+2022-04-21 17:50:10,350 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,350 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-21 17:50:10,350 DEBUG   SenderThread:317013 [sender.py:send():235] send: summary
+2022-04-21 17:50:10,351 INFO    SenderThread:317013 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-21 17:50:10,351 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,351 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-21 17:50:10,351 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 5
+2022-04-21 17:50:10,351 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,351 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-21 17:50:10,352 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,352 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-21 17:50:10,385 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 6
+2022-04-21 17:50:10,385 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,385 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-21 17:50:10,385 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,385 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-21 17:50:10,385 INFO    SenderThread:317013 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-21 17:50:10,398 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-21 17:50:10,601 INFO    Thread-7  :317013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/wandb-summary.json
+2022-04-21 17:50:10,601 INFO    SenderThread:317013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/output.log
+2022-04-21 17:50:10,602 INFO    SenderThread:317013 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/config.yaml
+2022-04-21 17:50:10,602 INFO    SenderThread:317013 [dir_watcher.py:finish():313] scan: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files
+2022-04-21 17:50:10,602 INFO    SenderThread:317013 [dir_watcher.py:finish():327] scan save: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/wandb-metadata.json wandb-metadata.json
+2022-04-21 17:50:10,602 INFO    SenderThread:317013 [dir_watcher.py:finish():327] scan save: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/config.yaml config.yaml
+2022-04-21 17:50:10,602 INFO    SenderThread:317013 [dir_watcher.py:finish():327] scan save: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/diff.patch diff.patch
+2022-04-21 17:50:10,602 INFO    SenderThread:317013 [dir_watcher.py:finish():327] scan save: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/wandb-summary.json wandb-summary.json
+2022-04-21 17:50:10,603 INFO    SenderThread:317013 [dir_watcher.py:finish():327] scan save: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/requirements.txt requirements.txt
+2022-04-21 17:50:10,603 INFO    SenderThread:317013 [dir_watcher.py:finish():327] scan save: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/output.log output.log
+2022-04-21 17:50:10,607 INFO    SenderThread:317013 [dir_watcher.py:finish():327] scan save: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/code/tutorial2.py code/tutorial2.py
+2022-04-21 17:50:10,607 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 7
+2022-04-21 17:50:10,611 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: poll_exit
+2022-04-21 17:50:10,615 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,615 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-21 17:50:10,615 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,615 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-21 17:50:10,615 INFO    SenderThread:317013 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-21 17:50:10,638 INFO    Thread-14 :317013 [upload_job.py:push():137] Uploaded file /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/config.yaml
+2022-04-21 17:50:10,641 INFO    Thread-15 :317013 [upload_job.py:push():137] Uploaded file /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/wandb-summary.json
+2022-04-21 17:50:10,644 INFO    Thread-16 :317013 [upload_job.py:push():137] Uploaded file /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/requirements.txt
+2022-04-21 17:50:10,647 INFO    Thread-17 :317013 [upload_job.py:push():137] Uploaded file /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/files/output.log
+2022-04-21 17:50:10,713 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-21 17:50:10,714 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: poll_exit
+2022-04-21 17:50:10,815 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-21 17:50:10,816 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: poll_exit
+2022-04-21 17:50:10,847 INFO    Thread-6  :317013 [sender.py:transition_state():392] send defer: 8
+2022-04-21 17:50:10,848 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,848 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-21 17:50:10,848 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,848 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-21 17:50:10,918 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-21 17:50:10,926 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 9
+2022-04-21 17:50:10,926 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: poll_exit
+2022-04-21 17:50:10,927 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,927 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-21 17:50:10,927 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,928 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-21 17:50:10,928 INFO    SenderThread:317013 [sender.py:transition_state():392] send defer: 10
+2022-04-21 17:50:10,928 DEBUG   SenderThread:317013 [sender.py:send():235] send: final
+2022-04-21 17:50:10,929 DEBUG   SenderThread:317013 [sender.py:send():235] send: footer
+2022-04-21 17:50:10,929 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: defer
+2022-04-21 17:50:10,929 INFO    HandlerThread:317013 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-21 17:50:10,929 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: defer
+2022-04-21 17:50:10,929 INFO    SenderThread:317013 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-21 17:50:11,028 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-21 17:50:11,029 DEBUG   SenderThread:317013 [sender.py:send_request():249] send_request: poll_exit
+2022-04-21 17:50:11,029 INFO    SenderThread:317013 [file_pusher.py:join():150] waiting for file pusher
+2022-04-21 17:50:11,152 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-21 17:50:11,153 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-21 17:50:11,154 DEBUG   HandlerThread:317013 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-21 17:50:11,154 INFO    HandlerThread:317013 [handler.py:finish():790] shutting down handler
+2022-04-21 17:50:11,929 INFO    WriterThread:317013 [datastore.py:close():281] close: /home/ubuntu/environment/tutorial/wandb/run-20220421_175006-oxcfvtrv/run-oxcfvtrv.wandb
+2022-04-21 17:50:12,051 INFO    SenderThread:317013 [sender.py:finish():1107] shutting down sender
+2022-04-21 17:50:12,051 INFO    SenderThread:317013 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-21 17:50:12,051 INFO    SenderThread:317013 [file_pusher.py:join():150] waiting for file pusher
+2022-04-21 17:50:12,053 INFO    MainThread:317013 [internal.py:handle_exit():82] Internal process exited

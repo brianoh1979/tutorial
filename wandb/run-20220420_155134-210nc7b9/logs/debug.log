@@ -1,0 +1,41 @@
+2022-04-20 15:51:34,159 INFO    MainThread:131845 [wandb_setup.py:_flush():75] Loading settings from /home/ubuntu/.config/wandb/settings
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_setup.py:_flush():75] Loading settings from /home/ubuntu/environment/tutorial/wandb/settings
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'tutorial2.py', 'program': 'tutorial2.py'}
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_init.py:_log_setup():438] Logging user logs to /home/ubuntu/environment/tutorial/wandb/run-20220420_155134-210nc7b9/logs/debug.log
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_init.py:_log_setup():439] Logging internal logs to /home/ubuntu/environment/tutorial/wandb/run-20220420_155134-210nc7b9/logs/debug-internal.log
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_init.py:init():472] calling init triggers
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_init.py:init():475] wandb.init called with sweep_config: {}
+config: {}
+2022-04-20 15:51:34,160 INFO    MainThread:131845 [wandb_init.py:init():525] starting backend
+2022-04-20 15:51:34,161 INFO    MainThread:131845 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-04-20 15:51:34,171 INFO    MainThread:131845 [backend.py:ensure_launched():219] starting backend process...
+2022-04-20 15:51:34,174 INFO    MainThread:131845 [backend.py:ensure_launched():224] started backend process with pid: 131854
+2022-04-20 15:51:34,175 INFO    MainThread:131845 [wandb_init.py:init():534] backend started and connected
+2022-04-20 15:51:34,180 INFO    MainThread:131845 [wandb_init.py:init():598] updated telemetry
+2022-04-20 15:51:34,187 INFO    MainThread:131845 [wandb_init.py:init():629] communicating run to backend with 30 second timeout
+2022-04-20 15:52:04,188 INFO    MainThread:131845 [interface_shared.py:_communicate_run():325] couldn't get run from backend
+2022-04-20 15:52:04,189 ERROR   MainThread:131845 [wandb_init.py:init():634] backend process timed out
+2022-04-20 15:52:04,189 ERROR   MainThread:131845 [wandb_init.py:init():645] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-04-20 15:52:04,196 ERROR   MainThread:131845 [wandb_init.py:init():1023] error
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 996, in init
+    run = wi.init()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 649, in init
+    backend.cleanup()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 248, in cleanup
+    self.interface.join()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 474, in join
+    super().join()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 652, in join
+    _ = self._communicate_shutdown()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 471, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 225, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 230, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
